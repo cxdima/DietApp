@@ -1,1 +1,432 @@
-<diet-app-test-nx-welcome></diet-app-test-nx-welcome>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container px-4 px-lg-5">
+    <a href="#">
+      <img
+        class="navbar-brand"
+        src="/assets/favicon.png"
+        width="44"
+        height="52"
+      />
+    </a>
+    <a class="navbar-brand" href="#">DietApp</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >Recipes</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#!">Breakfast</a></li>
+            <li><a class="dropdown-item" href="#!">Lunch</a></li>
+            <li><a class="dropdown-item" href="#!">Dinner</a></li>
+            <li><a class="dropdown-item" href="#!">Dessert</a></li>
+            <li><a class="dropdown-item" href="#!">Drinks</a></li>
+            <li><a class="dropdown-item" href="#!">Snacks and Appetizers</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#!"><strong>View All</strong></a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >Kitchen Tips</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#!">Guide: Terms and Definitions</a></li>
+            <li><a class="dropdown-item" href="#!">Meal Plans</a></li>
+            <li><a class="dropdown-item" href="#!">Recipe Collections</a></li>
+            <li><a class="dropdown-item" href="#!">Tips and Techniques</a></li>
+            <li><a class="dropdown-item" href="#!">Guide: Ingredients</a></li>
+            <li><a class="dropdown-item" href="#!">Guide: Cuisines</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#!"><strong>View All</strong></a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            id="navbarDropdown"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >Explore</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#!">Most Recent</a></li>
+            <li><a class="dropdown-item" href="#!">News and Trends</a></li>
+            <li><a class="dropdown-item" href="#!">Famous Chefs</a></li>
+            <li><a class="dropdown-item" href="#!">Voices</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#!"><strong>View All</strong></a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#!">Forum</a></li>
+        <li class="nav-item nav-link">|</li>
+        <li class="nav-item"><a class="nav-link" href="#!">About Us</a></li>
+      </ul>
+      <form class="d-flex">
+        <i class="bi-heart me-3"></i>
+        <button class="btn btn-outline-dark" type="submit">
+          <i class="bi-person me-1"></i>
+          <span>John Doe</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- Header-->
+<header class="bg-dark py-5">
+  <div class="container px-4 px-lg-5 my-5">
+    <div class="text-center text-white">
+      <h1 class="display-4 fw-bolder">What's cooking?</h1>
+      <p class="lead fw-normal text-white-50 mb-0">Select some filters!</p>
+    </div>
+  </div>
+</header>
+<!-- Section-->
+<section class="py-5">
+  <div class="container px-4 px-lg-5 mt-5">
+    <div
+      class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+    >
+      <div class="col mb-5">
+        <div class="card h-100">
+          <!-- Product image-->
+          <img
+            class="card-img-top"
+            src="/assets/Example_7.webp"
+            alt="..."
+          />
+          <!-- Product details-->
+          <div class="card-body p-4">
+            <div class="text-center">
+              <!-- Product name-->
+              <h5 class="fw-bolder">Spaghetti Carbonara</h5>
+
+              <div
+                class="d-flex justify-content-center small text-warning mb-2"
+              >
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+              </div>
+              <p style="font-size: 10px">8593 Ratings</p>
+              <p>Time: 25 min</p>
+              <p>Difficulty: Medium</p>
+            </div>
+          </div>
+          <!-- Product actions-->
+          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+            <div class="text-center">
+              <a class="btn btn-outline-dark mt-auto" href="#"
+              >See recipe</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5">
+        <div class="card h-100">
+          <!-- Sale badge-->
+          <div
+            class="badge bg-dark text-white position-absolute"
+            style="top: 0.5rem; right: 0.5rem"
+          >
+            On fire!
+          </div>
+          <!-- Product image-->
+          <img
+            class="card-img-top"
+            src="/assets/Example_6.webp"
+            alt="..."
+          />
+          <!-- Product details-->
+          <div class="card-body p-4">
+            <div class="text-center">
+              <h5 class="fw-bolder">Gochujang Skirt Steak</h5>
+              <!-- Product reviews-->
+              <div
+                class="d-flex justify-content-center small text-warning mb-2"
+              >
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+              </div>
+              <p style="font-size: 10px">7811 Ratings</p>
+              <p>Time: 30 min</p>
+              <p>Difficulty: Intermediate</p>
+            </div>
+          </div>
+          <!-- Product actions-->
+          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+            <div class="text-center">
+              <a class="btn btn-outline-dark mt-auto" href="#"
+              >See recipe</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5">
+        <div class="card h-100">
+          <!-- Sale badge-->
+
+          <!-- Product image-->
+          <img class="card-img-top" src="/assets/Example_8.webp" />
+          <!-- Product details-->
+          <div class="card-body p-4">
+            <div class="text-center">
+              <!-- Product name-->
+              <h5 class="fw-bolder">All-Purpose Muffins</h5>
+              <div
+                class="d-flex justify-content-center small text-warning mb-2"
+              >
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+              </div>
+              <p style="font-size: 10px">5182 Ratings</p>
+              <p>Time: 45 min</p>
+              <p>Difficulty: Hard</p>
+              <!-- Product price-->
+            </div>
+          </div>
+          <!-- Product actions-->
+          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+            <div class="text-center">
+              <a class="btn btn-outline-dark mt-auto" href="#"
+              >See recipe</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5">
+        <div class="card h-100">
+          <!-- Product image-->
+          <div
+            class="badge bg-dark text-white position-absolute"
+            style="top: 0.5rem; right: 0.5rem"
+          >
+            On fire!
+          </div>
+          <img class="card-img-top" src="assets/Example_2.jpeg" alt="..." />
+          <!-- Product details-->
+          <div class="card-body p-4">
+            <div class="text-center">
+              <h5 class="fw-bolder">Berry Smoothie</h5>
+              <div
+                class="d-flex justify-content-center small text-warning mb-2"
+              >
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+              </div>
+              <p style="font-size: 10px">12192 Ratings</p>
+              <p>Time: 10 min</p>
+              <p>Difficulty: Beginner</p>
+            </div>
+          </div>
+          <!-- Product actions-->
+          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+            <div class="text-center">
+              <a class="btn btn-outline-dark mt-auto" href="#"
+              >See recipe</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5">
+        <div class="card h-100">
+          <!-- Product image-->
+          <img
+            class="card-img-top"
+            src="assets/Example_4.webp"
+            alt="..."
+          />
+          <!-- Product details-->
+          <div class="card-body p-4">
+            <div class="text-center">
+              <!-- Product name-->
+              <h5 class="fw-bolder">Classic Folded Omelet</h5>
+              <!-- Product price-->
+              <div
+                class="d-flex justify-content-center small text-warning mb-2"
+              >
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+              </div>
+              <p style="font-size: 10px">2720 Ratings</p>
+              <p>Time: 10 min</p>
+              <p>Difficulty: Beginner</p>
+            </div>
+          </div>
+          <!-- Product actions-->
+          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+            <div class="text-center">
+              <a class="btn btn-outline-dark mt-auto" href="#"
+              >See recipe</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5">
+        <div class="card h-100">
+          <!-- Product image-->
+          <img
+            class="card-img-top"
+            src="assets/example_9.jpeg"
+            alt="..."
+          />
+          <!-- Product details-->
+          <div class="card-body p-4">
+            <div class="text-center">
+              <!-- Product name-->
+              <h5 class="fw-bolder">Easy pancakes
+              </h5>
+              <div
+                class="d-flex justify-content-center small text-warning mb-2"
+              >
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+              </div>
+              <p style="font-size: 10px">9755 Ratings</p>
+              <p>Time: 20 min</p>
+              <p>Difficulty: Amateur</p>
+            </div>
+          </div>
+          <!-- Product actions-->
+          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+            <div class="text-center">
+              <a class="btn btn-outline-dark mt-auto" href="#"
+              >See recipe</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5">
+        <div class="card h-100">
+          <!-- Sale badge-->
+          <div
+            class="badge bg-dark text-white position-absolute"
+            style="top: 0.5rem; right: 0.5rem"
+          >
+            On fire!
+          </div>
+          <!-- Product image-->
+          <img
+            class="card-img-top"
+            src="assets/Example_5.jpeg"
+            alt="..."
+          />
+          <!-- Product details-->
+          <div class="card-body p-4">
+            <div class="text-center">
+              <!-- Product name-->
+              <h5 class="fw-bolder">Pizza Salami with Rucola</h5>
+              <!-- Product reviews-->
+              <div
+                class="d-flex justify-content-center small text-warning mb-2"
+              >
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+              </div>
+              <p style="font-size: 10px">8102 Ratings</p>
+              <p>Time: 30 min</p>
+              <p>Difficulty: Amateur</p>
+            </div>
+          </div>
+          <!-- Product actions-->
+          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+            <div class="text-center">
+              <a class="btn btn-outline-dark mt-auto" href="#"
+              >See recipe</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5">
+        <div class="card h-100">
+          <!-- Product image-->
+          <img
+            class="card-img-top"
+            src="assets/Example_1.webp"
+          />
+          <!-- Product details-->
+          <div class="card-body p-4">
+            <div class="text-center">
+              <!-- Product name-->
+              <h5 class="fw-bolder">Baked Chicken with Potato Slices</h5>
+              <div
+                class="d-flex justify-content-center small text-warning mb-2"
+              >
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+                <div class="bi-star-fill"></div>
+              </div>
+              <p style="font-size: 10px">12192 Ratings</p>
+              <p>Time: 10 min</p>
+              <p>Difficulty: Beginner</p>
+            </div>
+          </div>
+          <!-- Product actions-->
+          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+            <div class="text-center">
+              <a class="btn btn-outline-dark mt-auto" href="#"
+              >See recipe</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer-->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">
+      &copy; DietApp 2022 -  Group 2
+    </p>
+  </div>
+</footer>
+<!-- Bootstrap core JS-->
+
