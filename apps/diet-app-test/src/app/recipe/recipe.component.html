@@ -1,23 +1,18 @@
 <div class="col mb-5">
-  <div class="card h-100">
+  <div class="card" style="height: 30rem">
 
-    <!-- Product image-->
-    <diet-app-test-on-fire *ngIf="recipe.sale"></diet-app-test-on-fire>
-    <img
-      class="card-img-top"
-      [src]="recipe.image"
-      alt="..."
-    />
+    <diet-app-test-on-fire *ngIf="recipe.onfire"></diet-app-test-on-fire> <!--on fire tag-->
+    <img class="card-img-top" [src]="recipe.image" alt="..."/> <!-- image -->
 
     <!-- Product details-->
     <div class="card-body p-4">
       <div class="text-center">
         <!-- Product name-->
         <h5 class="fw-bolder">{{ recipe.name }}</h5>
-          <diet-app-test-star class="d-flex justify-content-center small text-warning mb-2" [star]="recipe.stars"></diet-app-test-star>
-        <p style="font-size: 10px">8593 Ratings</p>
+          <diet-app-test-star class="d-flex justify-content-center small text-warning mb-2"[star]="recipe.stars"></diet-app-test-star>
+        <p style="font-size: 10px">{{recipe.rating}} Ratings</p>
         <p>Time: {{recipe.time}} min</p>
-        <p>Difficulty: Medium</p>
+        <p>Difficulty: {{recipe.difficulty}}</p>
       </div>
     </div>
 

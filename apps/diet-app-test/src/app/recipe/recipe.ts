@@ -6,5 +6,5 @@ image: string;
 name: string;
 time: number;
 difficulty: string;
-sale: boolean;
+onfire: boolean;
 }
