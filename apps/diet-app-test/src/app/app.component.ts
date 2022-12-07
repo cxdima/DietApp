@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Recipe } from './recipe/recipe';
+import { Recipe } from './components/recipe/recipe';
 
 @Component({
   selector: 'diet-app-test-root',
