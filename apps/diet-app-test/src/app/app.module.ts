@@ -14,6 +14,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BreakfastComponent } from './breakfast/breakfast.component';
 import { LunchComponent } from './lunch/lunch.component';
+import { RecipesComponent } from './recipes/recipes.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { LunchComponent } from './lunch/lunch.component';
     FooterComponent,
     BreakfastComponent,
     LunchComponent,
+    RecipesComponent,
   ],
   imports: [BrowserModule, NgbModule, AppRoutingModule],
   providers: [],
