@@ -7,4 +7,5 @@ name: string;
 time: number;
 difficulty: string;
 onfire: boolean;
+breakfast: boolean;
 }

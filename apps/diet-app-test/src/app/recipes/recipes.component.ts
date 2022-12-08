@@ -8,7 +8,8 @@ import { Recipe } from '../components/recipe/recipe';
 })
 export class RecipesComponent {
   title = 'diet-app-test';
-  products = productsList;}
+  products = productsList;
+}
 
 export const productsList: Array<Recipe>= [
   {
@@ -20,7 +21,7 @@ export const productsList: Array<Recipe>= [
     time: 30,
     difficulty: 'Easy',
     onfire: true,
-
+    breakfast: false,
   },
   {
     id: 2,
@@ -31,6 +32,7 @@ export const productsList: Array<Recipe>= [
     time: 40,
     difficulty: 'Hard',
     onfire: false,
+    breakfast: false,
   },
   {
     id: 3,
@@ -41,6 +43,7 @@ export const productsList: Array<Recipe>= [
     time: 20,
     difficulty: 'Medium',
     onfire: true,
+    breakfast: true,
   },
   {
     id: 4,
@@ -51,6 +54,7 @@ export const productsList: Array<Recipe>= [
     time: 10,
     difficulty: 'easy',
     onfire: true,
+    breakfast: true,
   },
   {
     id: 5,
@@ -61,6 +65,7 @@ export const productsList: Array<Recipe>= [
     time: 15,
     difficulty: 'easy',
     onfire: false,
+    breakfast: true,
   },
   {
     id: 6,
@@ -71,6 +76,7 @@ export const productsList: Array<Recipe>= [
     time: 20,
     difficulty: 'Medium',
     onfire: false,
+    breakfast: true,
   },
   {
     id: 7,
@@ -81,6 +87,7 @@ export const productsList: Array<Recipe>= [
     time: 25,
     difficulty: 'Medium',
     onfire: false,
+    breakfast: false,
   },
   {
     id: 8,
@@ -91,5 +98,6 @@ export const productsList: Array<Recipe>= [
     time: 40,
     difficulty: 'hard',
     onfire: true,
+    breakfast: false,
   }
 ];

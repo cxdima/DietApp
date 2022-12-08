@@ -1,1 +1,34 @@
-<p>breakfast works!</p>
+<div
+  class="container text-center px-4 px-lg-5 my-5"
+  style="
+    background-color: #89b0ae;
+    border-radius: 30px;
+    height: 300px;
+  "
+>
+  <div
+    class="col-11 col-lg-12 ml-2 ml-md-0 mb-6 mb-md-10"
+    style="
+      text-align: center;
+      padding: 4rem;
+"
+  >
+    <h1>Breakfast recipes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Odio tempor orci dapibus ultrices in iaculis nunc sed.
+      Ut etiam sit amet nisl purus. Quam viverra orci sagittis eu. </p>
+  </div>
+</div>
+
+
+<!-- https://coolors.co/palette/555b6e-89b0ae-bee3db-faf9f9-ffd6ba -->
+
+<section class="py-5">
+  <div class="container px-4 px-lg-5 mt-5">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+      <div *ngFor="let product of breakfastProducts">
+        <diet-app-test-recipe [recipe]="product"></diet-app-test-recipe>
+      </div>
+    </div>
+  </div>
+</section>

@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'dinner', component: BreakfastComponent },
   { path: 'dessert', component: BreakfastComponent },
   { path: 'drinks', component: BreakfastComponent },
-  { path: '**', component: RecipesComponent },
+  { path: '', component: RecipesComponent },
 
 ];
 
