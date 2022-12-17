@@ -1,0 +1,14 @@
+#testing123{
+  text-align: center;
+  width: 100px;
+  margin: auto;
+}
+
+#recipe-item{
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 1px dashed #fe4a55;
+  box-shadow: 0px 0px 20px 0px rgb(221 221 221 / 45%);
+  position: relative;
+  padding: 25px 35px 25px 105px;
+}

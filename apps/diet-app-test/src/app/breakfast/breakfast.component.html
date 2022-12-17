@@ -1,34 +1,49 @@
-<div
-  class="container text-center px-4 px-lg-5 my-5"
-  style="
-    background-color: #89b0ae;
-    border-radius: 30px;
-    height: 300px;
-  "
->
-  <div
-    class="col-11 col-lg-12 ml-2 ml-md-0 mb-6 mb-md-10"
-    style="
-      text-align: center;
-      padding: 4rem;
-"
-  >
-    <h1>Breakfast recipes</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Odio tempor orci dapibus ultrices in iaculis nunc sed.
-      Ut etiam sit amet nisl purus. Quam viverra orci sagittis eu. </p>
+
+<!--filter header component-->
+<!--<diet-app-test-filter-header></diet-app-test-filter-header>-->
+
+<section class="py-5" >
+  <div class="container py-5" style="background-color: #ADD8E6;">
+    <div class="column">
+
+      <div class="row">
+        <div class="card col-lg-8 col-md-12 bg-dark" style="height: 15rem;">
+          <h1 class="text-white text-center mt-5">I will be a recipe</h1>
+        </div>
+        <div class="card col-lg-4 col-md-12 bg-dark" style="height: 50rem;">
+          <h1 class="text-white text-center mt-5"> I am a filter bar</h1>
+        </div>
+      </div>
+
+    </div>
   </div>
-</div>
+</section>
 
-
-<!-- https://coolors.co/palette/555b6e-89b0ae-bee3db-faf9f9-ffd6ba -->
-
-<section class="py-5">
-  <div class="container px-4 px-lg-5 mt-5">
-    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-      <div *ngFor="let product of breakfastProducts">
-        <diet-app-test-recipe [recipe]="product"></diet-app-test-recipe>
+<section>
+  <div class="container mb-5">
+    <div class="card" style="height: 30rem">
+      <div class="card-header">
+        <h1>Hello, I am a Card!</h1>
+      </div>
+      <div class="card-body p-4">
+        <p>loremipsum</p>
       </div>
     </div>
   </div>
 </section>
+
+<!--card duplication process (filtered by breakfast recipes only)-->
+<!--<section class="py-5">-->
+<!--  <div class="container px-4 px-lg-5 mt-5">-->
+<!--    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">-->
+<!--      <div *ngFor="let product of breakfastProducts">-->
+<!--        <diet-app-test-recipe [recipe]="product"></diet-app-test-recipe>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+
+
+
+
+<!-- https://coolors.co/palette/555b6e-89b0ae-bee3db-faf9f9-ffd6ba -->
